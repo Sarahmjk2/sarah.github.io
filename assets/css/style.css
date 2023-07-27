@@ -29,10 +29,20 @@ body::before {
   z-index: -1;
 }
 
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
   }
+}
+
+
+@media (max-width: 350px) {
+  body::before {
+    background-attachment: fixed;
+    background: #040404 url("../img/bg.jpg") top center no-repeat;
+
+ }  
 }
 
 a {
